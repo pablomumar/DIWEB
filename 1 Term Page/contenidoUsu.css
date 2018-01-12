@@ -1,0 +1,47 @@
+.contenido{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.submenu{
+    width: 20%;
+    margin-left: 10%;
+    background-color: #7c0303;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    float: left;
+    margin-top: 2%;
+    height: 25%;
+}
+
+.submenu a{
+    text-decoration: none;
+    font-family: "Century Gothic", Helvetica, Arial;
+    color: #b82e2e;
+    padding-left: 17%;
+}
+
+.submenu a:hover{
+    text-decoration: none;
+    font-family: "Century Gothic", Helvetica, Arial;
+    color: #b82e2e;
+    padding-left: 17%;
+    border-bottom: 1px #b82e2e solid;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_cont{
+    float: right;
+    width: 55%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 3%;
+    background-color: #eded92;
+    margin-top: 2%;
+    margin-bottom: 12%
+}

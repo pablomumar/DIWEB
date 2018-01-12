@@ -1,0 +1,132 @@
+html, body{
+    width: 99%;
+    height: 100%;
+    background-color: #e6e6e6;
+}
+
+.contenido{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+}
+
+/*-----------------------------------------
+                SLIDE IMGS
+-------------------------------------------*/
+
+.contenido .slideshow {
+    box-sizing:border-box
+}
+
+.slideshow {
+    max-width: 95%;
+    position: relative;
+    margin: auto;
+}
+
+/* --- Imagenes ---*/
+.mySlides {
+    display: none;
+}
+
+.contenido .slideshow .mySlides img{
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+}
+
+/* --- Botones ---*/
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* --- Pie de foto ---*/
+.text {
+    color: #7c0303;
+    font-size: 15px;
+    font-family: "Century Gothic", Helvetica, Arial;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* --- Puntos ---*/
+.dot {
+    cursor:pointer;
+    height: 5px;
+    width: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/*-----------------------------------------
+                Texto
+-------------------------------------------*/
+.contenedor_texto{
+    width: 100%;
+    height: 200px;
+}
+
+.text_cont1, .text_cont2{
+    width: 45%;
+    max-width: 48%;
+    display: block;
+    height: 100%;
+}
+
+.text_cont1{
+    float: left;
+}
+
+.parrafo{
+    float: left;
+    text-align: justify;
+    width: 100%;
+    position: relative;
+    word-spacing: 1px;
+
+}
+
+.text_cont2{
+    float: right;
+}
+
+.text_cont1 p, .text_cont1 h3, .text_cont2 p, .text_cont2 h3{
+    text-align: left;
+}

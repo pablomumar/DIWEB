@@ -1,0 +1,198 @@
+html, body{
+    width: 99%;
+    height: 100%;
+    background-color: #e6e6e6;
+}
+
+/*-----------------------------------------
+                CABECERA
+-------------------------------------------*/
+
+.cabecera{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --- Logo empresa ---*/
+.logo_emp{
+    float: left;
+    width: 49%;
+    max-width: 49.5%;
+}
+
+.logo_emp img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    min-width: 150px;
+}
+
+/* --- Texto Cabecera ---*/
+.text_cabecera{
+    float: right;
+    width: 49%;
+    max-width: 49.5%;
+    text-align: right;
+}
+
+.text_cabecera h4{
+    font-family: Eras Demi ITC, Helvetica, Arial;
+    color: #b82e2e;
+}
+
+
+/* --- Menu Zona de Registro ---*/
+.registro{
+    position: relative;
+    display: block;
+    float: right;
+    margin-right: 15%;
+}
+
+.registro ul li {
+    list-style: none;
+    display: inline;
+    float: right;
+}
+
+.registro ul li a{
+    text-decoration: none;
+    font-family: "Century Gothic", Helvetica, Arial;
+    color: #b82e2e;
+}
+
+/* --- Main menu ---*/
+.marco_mm{
+    background-color: #7c0303;
+    height: 90px;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    clear: both;
+    border-top: 2px #b82e2e solid;
+    border-bottom: 4px #b82e2e solid;
+}
+
+.main_menu{
+    height: 89px;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main_menu a{
+    text-decoration: none;
+    font-family: "Century Gothic", Helvetica, Arial;
+    color: #b82e2e;
+}
+
+/* --- Menu Zona de Redes ---*/
+.redes{
+    position: relative;
+    height: 1px;
+    margin-top: -6.5%;
+}
+
+.redes ul li {
+    list-style: none;
+    display: inline;
+    float: right;
+}
+
+.redes ul li a{
+    text-decoration: none;
+}
+
+/*-----------------------------------------
+                FOOTER
+-------------------------------------------*/
+.footer{
+    width: 80%;
+    background-color: #7c0303;
+    height: 10%;
+    max-height: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    border-top: 2px #b82e2e solid;
+    position: relative;
+    display: block;
+}
+
+.footer ul, .footer_fixed ul{
+    list-style: none;
+}
+
+.footer ul li, .footer_fixed ul li{
+    text-align: center;
+    color: #b82e2e;
+    font-family: Century, Arial;
+}
+
+.footer ul li a, .footer_fixed ul li a{
+    text-decoration: dotted;
+    color: #b82e2e;
+    font-family: Century, Arial;
+    font-size: 11px;
+}
+
+.footer_fixed{
+    width: 80%;
+    background-color: #7c0303;
+    height: 10%;
+    max-height: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    border-top: 2px #b82e2e solid;
+    position: fixed;
+    bottom:0;
+    display: block;
+}
+
+/*-----------------------------------------
+                FUENTES
+-------------------------------------------*/
+
+.main_title{
+    font-family: "Eras Bold ITC", Helvetica, "Arial Black";
+    color: #7c0303;
+}
+
+.slogan{
+    font-family: Eras Demi ITC, Helvetica, Arial;
+    color: #b82e2e;
+}
+
+.text_titulo{
+    font-family: "Century Gothic", Helvetica, Arial;
+    color: #7c0303;
+}
+
+.text{
+    font-family: Century,Arial;
+    color: #b82e2e;
+}
+
+.footer_text{
+    color: #b82e2e;
+    font-family: Century, Arial;
+    font-size: 10px;
+}
+
+/*
+Fuentes:
+Titulos => Eras Bold ITC, Eras Demi ITC
+Texto => Century Gothic (titulos), Century (texto)
+
+
+Colores:
+
+Rojos => #7c0303 (oscuro), #b82e2e (claro)
+Fondo marco (amarillento.grisaceo) => #eded92
+Gris => #e6e6e6
+*/

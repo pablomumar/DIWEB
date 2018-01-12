@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Home </title>
+    <link href="./menu_footer.css" type="text/css" rel="stylesheet">
+    <link href="./contenidoHome.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<!-- Cabecera -->
+<div class="cabecera">
+    <div class="logo_emp">
+        <img src="./img/Logos/logo_solocoche.png"/>
+    </div>
+
+    <div class="text_cabecera">
+        <h1 class="main_title">Nombre empresa</h1>
+        <h4 class="slogan">Eslogan to molon</h4>
+    </div>
+
+    <div class="registro">
+        <ul>
+            <li><a href="./InicioSes.html">Inicio de sesión</a></li>
+            <li>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+            <li><a href="#">Registrarse</a></li>
+        </ul>
+    </div>
+
+    <div class="marco_mm">
+        <div class="main_menu">
+            <a href="./Home.html">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="./Localizacion.html">Localización</a>
+            <a href="./ZonaUsuario.html">Zona Usuario</a>
+        </div>
+
+        <div class="redes">
+            <ul>
+                <li><a href="https://www.facebook.com/"> <img src="./img/Logos/facebook.png"/></a></li>
+                <li><a href="https://www.instagram.com/"> <img src="./img/Logos/Instagram.png"/></a></li>
+                <li><a href="https://twitter.com/"> <img src="./img/Logos/Twitter.png"/></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Contenido -->
+<div class="contenido">
+    <div class="slideshow">
+
+        <div class="mySlides">
+            <div class="numbertext">1 / 3</div>
+            <img src="./img/fotos_example/slide1.jpg"/>
+            <div class="text">Slide 1</div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 3</div>
+            <img src="./img/fotos_example/slide2.jpg"/>
+            <div class="text">Slide 2</div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 3</div>
+            <img src="./img/fotos_example/slide3.jpg"/>
+            <div class="text">Slide 3</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+    }
+    </script>
+    <div class="contenedor_texto">
+        <div class="text_cont1">
+            <h3 class="text_titulo"> Nosotros </h3>
+            <p class="text parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo auctor purus, quis sagittis justo auctor ut. Nunc ut luctus metus, nec commodo augue. Praesent et justo arcu. Maecenas non accumsan nunc. Sed mollis elementum maximus. Integer in gravida dui, in iaculis ligula. Curabitur facilisis mi eu faucibus efficitur. Proin facilisis commodo risus eu sagittis. Morbi eu vehicula neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <p class="text parrafo">Nam ut vehicula turpis. Fusce imperdiet condimentum augue. Morbi feugiat sagittis ipsum eget hendrerit. Nulla eu placerat felis. Morbi tellus ipsum, ornare quis diam non, finibus pretium nisi. Donec vel diam nibh. Sed ullamcorper eu odio id venenatis.</p>
+        </div>
+        <div class="text_cont2">
+            <h3 class="text_titulo"> Más cosas </h3>
+            <p class="text parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo auctor purus, quis sagittis justo auctor ut. Nunc ut luctus metus, nec commodo augue. Praesent et justo arcu. Maecenas non accumsan nunc. Sed mollis elementum maximus. Integer in gravida dui, in iaculis ligula. Curabitur facilisis mi eu faucibus efficitur. Proin facilisis commodo risus eu sagittis. Morbi eu vehicula neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <p class="text parrafo">Nam ut vehicula turpis. Fusce imperdiet condimentum augue. Morbi feugiat sagittis ipsum eget hendrerit. Nulla eu placerat felis. Morbi tellus ipsum, ornare quis diam non, finibus pretium nisi. Donec vel diam nibh. Sed ullamcorper eu odio id venenatis.</p>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<div class="footer">
+    <ul>
+        <li class="footer_text">Nombre</li>
+        <li class="footer_text">Telefono</li>
+        <li class="footer_text">email | <a href="./Contacto.html">Contacto</a></li>
+        <li class="footer_text">Otra cosa que se les ocurra</li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+.contenido{
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2 {
+    border-bottom: 1px #7c0303 solid;
+}
+
+.text_contCont {
+    width: 25%;
+    padding-left: 10%;
+    float: left;
+}
+
+.cont_form{
+    width: 53%;
+    height: 100%;
+    padding-right: 5%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    display: block;
+    background-color: #eded92;
+    padding-top: 20px;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-bottom: 4%;
+}
+
+form label{
+    font-family: "Century Gothic", Helvetica, Arial;
+    font-size: 20px;
+    color: #7c0303;
+}
+
+form input {
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    height: 100%;
+    width: 75%;
+}
+
+button{
+    background-color: #eded92;
+    border-color: #7c0303;
+    color: #7c0303;
+    border: 2px solid;
+    border-radius: 50px;
+    font-family: "Century Gothic", Helvetica, Arial;
+    font-weight: bold;
+    min-height: 35px;
+    width: 100px;
+    justify-self: flex-end;
+}

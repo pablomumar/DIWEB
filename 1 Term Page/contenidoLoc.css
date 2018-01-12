@@ -1,0 +1,65 @@
+.contenido{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height:80%;
+}
+
+h2 {
+    font-family: "Century Gothic", Helvetica, Arial;
+    color: #7c0303;
+    border-bottom: 1px #7c0303 solid;
+    width: 65%;
+}
+
+.marco_princ{
+    background-color: #eded92;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    margin-top: 1%;
+}
+
+#map{
+    border:0;
+    width: 40%;
+    height: 100%;
+    padding-top: 1%;
+    padding-left: 2%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#map h2{
+    justify-self: center;
+}
+
+#map div{
+    display: block;
+    justify-self: flex-end;
+}
+
+.info {
+    float: right;
+    width: 40%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+button{
+    background-color: #eded92;
+    border: 2px #7c0303 solid;
+    border-radius: 50px;
+    min-height: 35px;
+    width: 100px;
+    justify-self: flex-end;
+}
+
+button a{
+    font-family: "Century Gothic", Helvetica, Arial;
+    font-weight: bold;
+    color: #7c0303;
+    text-decoration: none;
+}

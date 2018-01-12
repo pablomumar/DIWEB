@@ -1,0 +1,65 @@
+.contenido{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height:40%;
+}
+
+.form_cont{
+    width: 40%;
+    height: 100%;
+    padding-left: 15%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*-----------------------------------------
+                FORMULARIO
+-------------------------------------------*/
+.formu {
+    display: block;
+}
+
+.formu label{
+    font-family: "Century Gothic", Helvetica, Arial;
+    font-size: 20px;
+    color: #7c0303;
+}
+
+.formu input{
+    width: 90%;
+}
+
+.form_submit{
+    width: 30%;
+    height: 100%;
+    padding-right: 10%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.form_submit div{
+    display: block;
+}
+
+.form_submit p a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* --- Boton --- */
+button{
+    background-color: #e6e6e6;
+    border-color: #7c0303;
+    color: #7c0303;
+    border: 2px solid;
+    border-radius: 50px;
+    font-family: "Century Gothic", Helvetica, Arial;
+    font-weight: bold;
+    min-height: 35px;
+    min-width: 100px;
+}
