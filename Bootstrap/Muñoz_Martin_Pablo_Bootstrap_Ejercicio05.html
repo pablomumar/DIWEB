@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <title>Ejercicio 5</title>
+    <style type="text/css">
+        div{
+            text-align: center;
+        }
+        h1{
+            font-size: 70px;
+        }
+        .borde{
+            border: solid 3px black;
+            outline: 1px solid white;
+            border-bottom-width: 4px;
+        }
+        .rojo{
+            background-color: #FF0000;
+        }
+        .amarillo {
+            background-color: #FFFF00;
+        }
+        .verde {
+            background-color: #00FF00;
+        }
+        #header1{
+            background-color: salmon;
+        }
+        #uno{
+            text-align: left;
+        }
+        #dos{
+            background-color: #00DDFF;
+        }
+        #tres{
+            text-align: right;
+        }
+        body{
+            background-color: orange;
+        }
+        @media (min-width: 576px) {
+            body{
+                background-color: dimgrey;
+            }
+            #header1{
+                background-color: #00DDFF;
+                text-align: left;
+            }
+            #tres{
+                background-color: #00FF00;
+                text-align: center;
+            }
+            #uno{
+                text-align: left;
+            }
+            #dos{
+                text-align: right;
+                background-color: #FF0000;
+            }
+        }
+
+        @media (min-width: 768px) {
+            body{
+                background-color: darkblue;
+            }
+            #header1{
+                text-align: left;
+                background-color: #00FF00;
+            }
+            #foot1{
+                text-align: right;
+            }
+            #foot2{
+                text-align: left;
+            }
+            #numeros{
+                min-height: 300px;
+            }
+            #uno{
+                text-align: center;
+            }
+            #dos{
+                text-align: center;
+            }
+            #tres{
+                background-color: #FF0000;
+            }
+        }
+
+        @media (min-width: 992px) {
+            body{
+                background-color: aqua;
+            }
+            #header1{
+                text-align: left;
+                background-color: #00FF00;
+            }
+            #foot1{
+                text-align: right;
+            }
+            #foot2{
+                text-align: left;
+            }
+            #numeros{
+                min-height: 300px;
+            }
+            #uno{
+                text-align: center;
+            }
+            #dos{
+                text-align: center;
+            }
+            #tres{
+                background-color: #FF0000;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            body{
+                background-color: blueviolet;
+            }
+            #header1{
+                text-align: left;
+                background-color: #00FF00;
+            }
+            #foot1{
+                text-align: right;
+            }
+            #foot2{
+                text-align: left;
+            }
+            #numeros{
+                min-height: 300px;
+            }
+            #uno{
+                text-align: center;
+            }
+            #dos{
+                text-align: center;
+            }
+            #tres{
+                background-color: #FF0000;
+            }
+        }
+    </style>
+</head>
+<body>
+<br><br>
+<div class="container">
+    <div class="row verde borde">
+        <div class="col-12" id="header1">Header</div>
+    </div>
+    <div class="row" id="numeros">
+        <div class="col-md-4 col-sm-6 col-12 rojo borde" id="uno"><h1>1</h1></div>
+        <div class="col-md-4 col-sm-6 col-12 rojo borde" id="dos"><h1>2</h1></div>
+        <div class="col-md-4 col-sm-12 col-12 rojo borde" id="tres"><h1>3</h1></div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-12 col-12 amarillo borde" id="foot1">Footer 1</div>
+        <div class="col-md-6 col-sm-12 col-12 amarillo borde" id="foot2">Footer 2</div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <title>Ejercicio 4</title>
+    <style type="text/css">
+        div{
+            text-align: center;
+            color: white;
+            min-height: 100px;
+        }
+        .borde{
+            border: solid 3px black;
+            outline: 1px solid white;
+            border-bottom-width: 4px;
+        }
+        .azul {
+            background-color: #0000FF;
+        }
+        .azul2{
+            background-color: #00DDFF;
+        }
+        .naranja{
+            background-color: #FF4500;
+        }
+
+        .verde {
+            background-color: #00FF00;
+        }
+        .gris{
+            background-color: #aaaaaa;
+        }
+        body{
+            background-color: orange;
+        }
+        @media (min-width: 576px) {
+            body{
+                background-color: dimgrey;
+            }
+        }
+
+        @media (min-width: 768px) {
+            body{
+                background-color: darkblue;
+            }
+        }
+
+        @media (min-width: 992px) {
+            body{
+                background-color: aqua;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            body{
+                background-color: blueviolet;
+            }
+        }
+
+        .little{
+            min-height: 30px;
+        }
+        .Mlittle{
+            min-height: 50px;
+        }
+        .cuadA{
+            min-height: 300px;
+        }
+        .cuadG{
+            min-height: 200px;
+        }
+    </style>
+</head>
+<body>
+<br><br>
+<div class="container">
+    <div class="row verde Mlittle">
+        <div class="col-md-12 col-sm-12 col-12 borde">Header</div>
+    </div>
+    <div class="row cuadA">
+        <div class="col-md-3 offset-md-3 col-sm-3 col-6 azul borde">1</div>
+        <div class="col-md-3 col-sm-3 col-6 azul borde">2</div>
+        <div class="col-md-3 d-none d-md-block"></div>
+        <div class="col-md-3 col-sm-3 col-6 azul borde">3</div>
+        <div class="col-md-3 offset-md-6 col-sm-3 col-6 azul borde">4</div>
+    </div>
+    <div class="row d-none d-sm-block d-md-none azul2 borde Mlittle">
+        <div class="col-sm-12 d-none d-sm-block d-md-none">Tablet</div>
+    </div>
+    <div class="row cuadG">
+        <div class="col-md-3 order-md-4 col-sm-3 col-6 gris borde">a</div>
+        <div class="col-md-3 order-md-3 col-sm-3 col-6 gris borde">b</div>
+        <div class="col-md-3 order-md-2 col-sm-3 col-6 gris borde">c</div>
+        <div class="col-md-3 order-md-1 col-sm-3 col-6 gris borde">d</div>
+    </div>
+    <div class="row d-none d-lg-block d-md-block d-lg-none azul2 borde Mlittle">
+        <div class="col-md-12 d-none d-lg-block d-md-block d-lg-none">Desktop</div>
+    </div>
+    <div class="row d-block d-sm-none azul2 borde Mlittle">
+        <div class="col-12 d-block d-sm-none">Mobile</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 order-md-2 col-sm-6 col-12 naranja borde">:D</div>
+        <div class="col-md-3 order-md-1 offset-md-3 col-sm-6 d-none d-sm-block naranja borde">:(</div>
+    </div>
+    <div class="row verde d-none d-sm-block borde little">
+        <div class="col-md-12 col-sm-12 col-12">Footer</div>
+    </div>
+    <br>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>
